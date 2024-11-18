@@ -1291,8 +1291,8 @@ button {
 .consultation__card-inner h3 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
-  font-size: 42px;
-  line-height: 54.6px;
+  font-size: 40px;
+  line-height: 50px;
   color: #1f2732;
 }
 @media screen and (max-width: 767px) {
