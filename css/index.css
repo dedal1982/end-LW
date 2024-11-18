@@ -124,6 +124,15 @@ button {
   height: 87px;
   object-fit: cover;
 }
+@media screen and (max-width: 768px) {
+  .promo__logo {
+    font-size: 30px;
+  }
+  .promo__logo img {
+    width: 50px;
+    height: 50px;
+  }
+}
 .promo__header-top a {
   width: 350px;
   height: 85px;
@@ -570,6 +579,9 @@ button {
   font-size: 45px;
   line-height: 58.5px;
   color: #ffffff;
+}
+.tariffs h2 {
+  font-family: "Verdana";
 }
 @media screen and (max-width: 767px) {
   .services__title h2 {
@@ -1757,7 +1769,7 @@ textarea {
     color: #fff;
     display: block;
     width: 100%;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #585757;
   }
 }
 /*---contacts---*/
