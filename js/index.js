@@ -56,3 +56,15 @@ if (popupTopClose) {
     popupTop.classList.remove("active");
   });
 }
+
+const mobileMenuLinks = document.querySelectorAll(".mobile-menu-links li a");
+
+if (mobileMenuLinks) {
+  mobileMenuLinks.forEach((item) => {
+    item.addEventListener("click", () => {
+      promoMobileMenu.classList.remove("active");
+      burgerClick.classList.remove("active");
+      scrollLock.classList.remove("lock");
+    });
+  });
+}
