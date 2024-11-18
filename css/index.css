@@ -1750,6 +1750,9 @@ textarea {
     line-height: 35px;
     text-transform: uppercase;
     color: #fff;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #fff;
   }
 }
 /*---contacts---*/
