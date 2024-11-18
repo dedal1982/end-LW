@@ -124,17 +124,6 @@ button {
   height: 87px;
   object-fit: cover;
 }
-/* 
-.promo__header-top img {
-  width: 400px;
-  height: 79px;
-}
-@media screen and (max-width: 1080px) {
-  .promo__header-top img {
-    width: 200px;
-    height: 55px;
-  }
-} */
 .promo__header-top a {
   width: 350px;
   height: 85px;
