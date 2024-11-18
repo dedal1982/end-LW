@@ -48,12 +48,14 @@ const popupTopClose = document.querySelector(".popup-top__close");
 if (promoBtn) {
   promoBtn.addEventListener("click", () => {
     popupTop.classList.add("active");
+    scrollLock.classList.add("lock");
   });
 }
 
 if (popupTopClose) {
   popupTopClose.addEventListener("click", () => {
     popupTop.classList.remove("active");
+    scrollLock.classList.remove("lock");
   });
 }
 

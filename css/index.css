@@ -109,6 +109,7 @@ button {
     height: 80px;
   }
 }
+
 .promo__header-top img {
   width: 400px;
   height: 79px;
@@ -1840,12 +1841,13 @@ textarea {
 .popup-top {
   position: fixed;
   inset: 0;
-  background: #0e377fbf;
+  /* background: #0e377fbf; */
   display: flex;
   align-items: center;
   justify-content: center;
   visibility: hidden;
   transition: all 0.2s ease-in-out;
+  background: linear-gradient(to bottom, #0d6efd96, #000000);
 }
 .popup-top.active {
   visibility: visible;
@@ -1867,7 +1869,7 @@ textarea {
   box-sizing: border-box;
   border-radius: inherit;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background: #0e377fbf;
+  background: #0b234d;
 }
 .popup-top__form input {
   width: 100%;
