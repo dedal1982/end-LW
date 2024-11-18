@@ -40,3 +40,19 @@ links.forEach((link) => {
     }
   });
 });
+
+const promoBtn = document.querySelector(".promo__header-top a");
+const popupTop = document.querySelector(".popup-top");
+const popupTopClose = document.querySelector(".popup-top__close");
+
+if (promoBtn) {
+  promoBtn.addEventListener("click", () => {
+    popupTop.classList.add("active");
+  });
+}
+
+if (popupTopClose) {
+  popupTopClose.addEventListener("click", () => {
+    popupTop.classList.remove("active");
+  });
+}
